@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+html { height: 100%; 
+
+}
+
+body {
+	background-image: linear-gradient(to top, #944EDC, #4D82B2);
+}
+
+h1 {
+	display: block;
+  text-align: center;
+	font-family: Impact, fantasy; 
+	font-size: 150px;
+	padding: 20px;
+	border-style: outset;
+	border-width: 15px;
+	border-color: #4EDCDB;
+	
+}
+
+ul {
+	display: block;
+  text-align: center;
+	list-style-type: none;
+}
+
+li {
+	
+	font-family: Impact, fantasy; 
+	font-size: 90px;
+	padding: 20px;
+	margin: auto;
+	width: 30%;
+}
+
+li:hover {
+	border-style: inset;
+	border-width: 15px;
+	border-color: #4EDCDB;
+}
